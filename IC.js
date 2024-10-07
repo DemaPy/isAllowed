@@ -1,4 +1,4 @@
-function initCampaigns(campaigns) {
+function initCampaigns(campaigns, config) {
     const now = new Date();
     const campaigns_nodes = [];
     const campaigns_to_alarm = [];
